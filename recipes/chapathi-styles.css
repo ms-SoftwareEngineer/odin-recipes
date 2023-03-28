@@ -1,0 +1,57 @@
+body{
+    font-size: xx-large;
+    background-color:rgb(231, 171, 128);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+    color:rgb(20, 77, 54);
+    text-transform: uppercase;
+    text-shadow: 3.5px 2.5px yellow;
+    letter-spacing: 0.25px;
+    word-spacing: 3px;    
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border-style:inset;
+    border-color:chocolate;
+    padding: 2.5px 2.5px;
+    filter:drop-shadow(12px 12px 12px rgba(64, 17, 139, 0.453));
+    
+    
+}
+
+h3{
+    color: brown;
+    text-shadow: 3px 3px pink;    
+    margin-bottom: -10px;
+}
+
+ul{
+    list-style: square inside;
+    background-color: aliceblue;
+    color:purple;
+    font-style: italic;
+    padding: 20px 20px;
+    border: 15px groove brown;
+    line-height: 40px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+ol{
+    list-style: decimal-leading-zero inside;
+    background-color: antiquewhite;
+    font-style: italic;
+    color:brown;
+    border-left:7px solid rgb(20, 77, 54);
+    padding: 10px 20px;
+    line-height: 40px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
