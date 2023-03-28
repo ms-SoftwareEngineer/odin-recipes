@@ -1,0 +1,59 @@
+body{
+    font-size:30px;
+    font-style: oblique;
+    background-image: url('https://images.pexels.com/photos/2294137/pexels-photo-2294137.jpeg?auto=compress&cs=tinysrgb&w=1600');  
+    background-position: center;
+    background-size:cover;
+    backdrop-filter: blur(6px);
+}
+
+h1{
+    background-image: linear-gradient(yellow,darkgoldenrod,peru);
+    color:rgba(37, 91, 37, 0.885);
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+    border: 4px dashed rgb(4, 24, 4);
+    padding: 15px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+img{
+    border: 7px solid white;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    height:fit-content;
+
+}
+
+h3{
+    color:darkgreen;
+    font-weight: bold;
+    font-style:normal;
+    text-align: center;
+    background-image: radial-gradient(gold,yellow,pink);
+    margin-left: 550px;
+    margin-right: 450px;
+}
+
+p{
+    color:aliceblue;
+}
+
+ul{
+    list-style: square inside;
+    border: 3px groove gainsboro;
+    background-image: radial-gradient(yellow,antiquewhite,brown);
+    line-height: 55px;
+}
+
+ol{
+    list-style: decimal-leading-zero inside;
+    border: 5px dotted antiquewhite;
+    background-image: radial-gradient(goldenrod,yellow,green);
+    line-height: 55px;
+}
